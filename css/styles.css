@@ -703,25 +703,27 @@ height: 40px;
 
 .subscribtion-container {
 display: flex;
-justify-content: space-between;
+flex-direction: column;
+align-items: flex-start;
 margin-left: 80px;
-width: 453px;
-height: 80px;
+height: auto;
 }
 .footer-form {
     display: flex;
-    align-items: flex-end;
-    width: 453px;
-    height: 80px;
+    align-items: center;
     gap: 24px;
-}
+    /* width: 453px;
+    height: 80px; */
+    }
 
-.subscribtion-field {
+.subscribe-email {
     display: block;
     align-items: center;
+    justify-content: center;
 }
 
 .subscription-title {
+    align-self: start;
     margin-bottom: 16px;
     font-weight: 500;
         font-size: 16px;
@@ -736,7 +738,13 @@ height: 80px;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    border-color: transparent;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+background-color: transparent;
 }
 
 
@@ -745,12 +753,11 @@ height: 80px;
             border: none;
             all: unset;
             display: flex;
-            gap: 16px;
             align-items: center;
             justify-content: center;
             box-sizing: border-box;
             border-radius: 4px;
-            width: 165px;
+            min-width: 165px;
             height: 40px;
             font-family: "Roboto", sans-serif;
             cursor: pointer;
@@ -775,6 +782,7 @@ height: 80px;
     fill: #FFFFFF;
     width: 24px;
     height: 24px;
+    margin-left: 16px;
 }
 
 
