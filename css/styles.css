@@ -962,7 +962,7 @@ border-color: #4D5AE5;
     margin-bottom: 24px;
 }
 
-checkbox-input:checked + .agreement-wrapper > .agreement-checkbox {
+.checkbox-input:checked + .agreement-wrapper > .agreement-checkbox {
 background-color: #404BBF;
 fill: #F4F4FD;
 border: none;
